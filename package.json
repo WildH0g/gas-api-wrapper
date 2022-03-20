@@ -1,0 +1,17 @@
+{
+  "name": "api-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear && jest tests/builder",
+    "bundle": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
+  }
+}
