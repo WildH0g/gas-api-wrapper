@@ -111,7 +111,7 @@ const Auth = (function () {
       const encode = base64Map[SETTINGS.runtime()];
       return {
         ...headers,
-        Authorization: `Basic ${encode(this.username) + ':' + encode(this.password)}`,
+        Authorization: `Basic ${encode(this.username + ':' + this.password)}`,
       };
     }
   }

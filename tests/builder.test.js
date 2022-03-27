@@ -187,7 +187,7 @@ describe('Testing Basic Auth ', () => {
     const users = instance3.getUsers();
     expect(users.headers).toEqual({
       Accept: 'application/json',
-      Authorization: 'Basic dXNlcm5hbWU=:cGFzc3dvcmQ=',
+      Authorization: 'Basic dXNlcm5hbWU6cGFzc3dvcmQ=',
     });
     expect(users.queryString).toBeFalsy();
     expect(users.url).toBe(URL + users.path);

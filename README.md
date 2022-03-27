@@ -160,4 +160,4 @@ Create SDKs with this library and add them to this README.
 
 ## Version
 
-0.1.0
+0.1.1
