@@ -150,6 +150,10 @@ mySDK().myMethod({
 
 All dynamic values are optional and the entries are removed from the requrest if not used.
 
+## Projects Built with the API Wraper for Google Apps Script
+
+- [Google Apps Script API Wrapper for Canvas LMS](https://github.com/Mr-C-Teaches-CS/gas-api-wrapper-canvas-lms)
+
 ## Contributing
 
 If you would like to contribute, I am looking for help in the following areas.
